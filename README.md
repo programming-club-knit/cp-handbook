@@ -3,7 +3,7 @@
 ## How to contribute
 1. **Fork the repository** to you account(one can fork all branches), or click on fork icon
 
-![Github Fork Icon](/assets/images/fork.png)
+![Github Fork Icon](./assets/images/fork.png)
 
 2. Clone your forked repository, or run this terminal command in your local folder where you want to clone:
 ```shell
@@ -36,6 +36,6 @@ git push origin -u __YOU_BRANCH_NAME__
 
 8. Head over to forked repository on browser raise a Pull Request, find compare & pull request button to raise a pull request 
 
-![Github PR Popup](/assets/images/github_pull_request.png)
+![Github PR Popup](./assets/images/github_pull_request.png)
 
 9. Give you PR an good name and a description and raise your Pull Request :)
