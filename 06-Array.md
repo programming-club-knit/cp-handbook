@@ -26,3 +26,13 @@ Array can be declared using the following syntax:
 int arr[8];
 ```
 
+### Memory Representation of Array
+Consider the following array declaration:
+```cpp
+int arr[8];
+```
+When we make this declaration, 32 bytes are immediately reserved in memory: 4 bytes for each of the 8 integers (which can vary depending on the operating system). Since the array is not being initialized, all eight values within it would be garbage values. This occurs because the storage class of this array is assumed to be 'auto'. However, if the storage class is declared as 'static', then all the array elements would have a default initial value of zero. Regardless of the initial values, all the array elements would always be located in contiguous memory locations.
+This arrangement of array elements in memory is shown in the figure below.
+
+![Representation of array](./assets/images/array-representation.png)
+
