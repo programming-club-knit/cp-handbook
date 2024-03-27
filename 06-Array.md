@@ -13,3 +13,16 @@ Array can be defined as **a collection of similar data types that are stored at 
 
 ![Array](./assets/images/array.png)
 
+### Array Declaration
+Declaring an array means specifying the following:
+- Data type - the kind of values it can store, for example, int, char, float, double.
+- Name - to identify the array.
+- Size - the maximum number of values that the array can hold.
+
+Array can be declared using the following syntax:
+
+`type name[size]`;
+```cpp
+int arr[8];
+```
+
