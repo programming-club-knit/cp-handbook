@@ -7,3 +7,9 @@ in the entire university (say 10,000 students).
 The answer is no, definitely not! To process a large amount of data, we need a data structure known as an array.
 
 ![Need of Array Illustration](./assets/images/array-need.png)
+
+## ARRAY
+Array can be defined as **a collection of similar data types that are stored at contiguous memory locations**.
+
+![Array](./assets/images/array.png)
+
