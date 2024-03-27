@@ -1,5 +1,10 @@
 # CP-Handbook
 
+## Prerequisites
+Before you begin stated, ensure you have met the following requirements:
+- Git installed on your machine, refer to [this docs to install git](https://kinsta.com/knowledgebase/install-git/).
+- A Code Editor installed on you local machine, download vs code from [here](https://code.visualstudio.com/download).
+
 ## How to contribute
 1. **Fork the repository** to you account(one can fork all branches), or click on fork icon
 
