@@ -1,7 +1,7 @@
 # CP-Handbook
 
 ## Prerequisites
-Before you begin stated, ensure you have met the following requirements:
+Before you begin, ensure you have met the following requirements:
 - Git installed on your machine, refer to [this docs to install git](https://kinsta.com/knowledgebase/install-git/).
 - A Code Editor installed on you local machine, download vs code from [here](https://code.visualstudio.com/download).
 
