@@ -12,7 +12,7 @@ Before you begin, ensure you have met the following requirements:
 
 2. **Clone your forked repository**, or run this terminal command in your local folder where you want to clone:
 ```shell
-git clone https://github.com/__YOUR_GITHUB_USER_NAME__/CP-Handbook
+git clone https://github.com/__YOUR_GITHUB_USER_NAME__/CP-Handbook.git
 ```
 
 3. **Head to cloned repository**, or hit this command:
@@ -39,8 +39,8 @@ git commit -m "__YOUR_COMMIT_MESSAGE__"
 git push origin -u __YOU_BRANCH_NAME__
 ```
 
-8. Head over to forked repository on browser **raise a Pull Request**, find compare & pull request button to raise a pull request 
+8. Head over to forked repository on browser **Raise a Pull Request**, find compare & pull request button to raise a pull request 
 
 ![Github PR Popup](./assets/images/github_pull_request.png)
 
-9. **Give you PR an good name and a description and raise your Pull Request :)**
+9. **Give your PR a good name and a description and raise your Pull Request :)**
