@@ -21,7 +21,7 @@ Declaring an array means specifying the following:
 
 Array can be declared using the following syntax:
 
-`type name[size]`;
+`data_type name[size]`;
 ```cpp
 int arr[8];
 ```
@@ -43,7 +43,7 @@ storing-values-in-arr
 ![storing values in array](./assets/images/storing-values-in-arr.png)
 
 ### 1. Initializing Arrays during Declaration:
-The elements of an array can be initialized at the time of declaration, just as any other variable. When an array is initialized, we need to provide a value for every element in the array. Arrays are initialized by writing, `type array_name[size] = {list of values);`
+The elements of an array can be initialized at the time of declaration, just as any other variable. When an array is initialized, we need to provide a value for every element in the array. Arrays are initialized by writing, `data_type array_name[size] = {list of values};`
 ```cpp
 int arr[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 0};
 ```
@@ -53,7 +53,7 @@ An array can be initialized by inputting values from the keyboard. In this metho
 ```cpp
 int marks[10];
 for(int i = 0; i < 10; i++){
-    cin >> mark[i];
+    cin >> marks[i];
 }
 ```
 
