@@ -63,3 +63,54 @@ The third way is to assign values to individual elements of the array by using t
 int arr[1] = 10;
 int arr[2] = 20;
 ```
+
+## Operations On Array:
+There are a number of operations that can be performed on arrays. These operations include:
+- **Traversal**: Accessing each and every element of the array.
+- **Insertion**: Inserting a new element in an array.
+- **Deletion**: Deleting element from the array.
+- **Searching**:  Search for an element in the array.
+- **Sorting**: Maintaining the order of elements in the array.
+
+Let's delve into the operations of an array using an example. Suppose we need to create a program that takes the marks of n students in a class and finds the highest mark among them, assuming that the marks are given in the order of increasing roll numbers.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+    cout << "Enter the number of students: ";
+    cin >> n;
+
+    // Declare arrays to store marks of n students
+    int marks[n];
+
+    // Prompt the user to enter marks
+    cout << "Enter the marks and roll numbers of " << n << " students:\n";
+    for (int i = 0; i < n; i++) {
+        cin >> marks[i];
+    }
+
+    // Initialize highestMark with the first student's marks
+    int highestMark = marks[0];
+    int highestRoll = 0;
+
+    // Iterate through the array to find the highest mark
+    for (int i = 1; i < n; i++) {
+        // Check if the current mark is higher than highestMark
+        if (marks[i] > highestMark) {
+            // Update highestMark if a higher mark is found
+            highestMark = marks[i];
+            highestRoll = i;
+        }
+    }
+
+    // Display the highest mark among the students and the roll number of the highest scorer
+    cout << "The highest mark among the students is: " << highestMark << endl;
+    // Note: Index of array starts with zero, that is why we are adding 1 to highestRoll
+    cout << "The roll number of the highest scorer is: " << (highestRoll+1) << endl;
+
+    return 0;
+}
+```
