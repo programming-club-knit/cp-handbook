@@ -114,3 +114,18 @@ int main() {
     return 0;
 }
 ```
+
+## Few Practice Problems based on Arrays
+
+|Sr. No.|**Problem** | **Practice Link** | **DIFFICULTY** |
+|--|--|--|---|
+|1| Largest Element in an Array | [Code Studio](https://www.naukri.com/code360/problems/largest-element-in-the-array-largest-element-in-the-array_5026279?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf) | Easy |
+|2| Check if the array is sorted | [Leet Code](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/) | Easy |
+|3| Rotate Array | [Leet Code](https://leetcode.com/problems/rotate-array/description/) | Easy |
+|4| Longest subarray with given sum K(positives) | [Code Studio](https://www.naukri.com/code360/problems/longest-subarray-with-sum-k_6682399?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf) | Medium |
+|5| Two Sum | [Leet Code](https://leetcode.com/problems/two-sum/description/) | Medium |
+|6| Stock Buy And Sell | [Leet Code](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Medium |
+|7| Three Sum | [Leet Code](https://leetcode.com/problems/3sum/description/) | Medium |
+|8| Next Permutation | [Leet Code](https://leetcode.com/problems/next-permutation/description/) | Medium |
+|9| Four Sum | [Leet Code](https://leetcode.com/problems/4sum/description/) | Hard |
+|10|Count number of subarrays with given xor K | [Leet Code](https://www.interviewbit.com/problems/subarray-with-given-xor/) | Hard |
