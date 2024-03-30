@@ -21,7 +21,7 @@ Codeforces is the best platform for competitive programming. It organizes short 
 
 Contests play a crucial role in improving problem-solving skills. Contest prepares you to solve questions in a timed environment, they help to feel the pressure of solving new questions in a given time limit.Try to give each and every live contest and if due to some reason you are not able to give a live contest, participate in a virtual contest. Many online platforms allow you to participate in a contest virtually. Don’t feel demotivated if your ratings drop after the contest. Upsolving after the contest is very important. Try to solve at least one more question.Almost all companies have their online coding test rounds so participating in contests will help you to perform better there.
 
-## Websites for Practicing.
+## Websites for Practicing
 
 Here is a list of websites , you can also prefer one of them for practicing.
 <br>
