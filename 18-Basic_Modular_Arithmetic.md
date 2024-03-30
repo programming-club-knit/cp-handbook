@@ -24,11 +24,12 @@ Generally, the question statement mentions if modulo needs to be used. The state
 
 Modulo cannot be simply used for arithmetic operations and follows certain rules. The rules are as follows:
 
-- ### $(a + b)$ % $mod = ((a$ % $mod) + (b$ % $mod))$ % $mod$
-- ### $(a * b)$ % $mod = ((a$ % $mod) * (b$ % $mod))$ % $mod$
-- ### $(a - b)$ % $mod = ((a$ % $mod) - (b$ % $mod) + mod)$ % $mod$
+- $(a + b)$ % $mod = ((a$ % $mod) + (b$ % $mod))$ % $mod$
+- $(a * b)$ % $mod = ((a$ % $mod) * (b$ % $mod))$ % $mod$
+- $(a - b)$ % $mod = ((a$ % $mod) - (b$ % $mod) + mod)$ % $mod$
 
-
+<br>
+<br>
 The difference from the general pattern in the case of subtraction can be understood by the following example:
 
 $a = 9, b = 6, mod = 4$
@@ -47,7 +48,7 @@ $LHS=RHS.$
 
 It can be proven that this formula is valid for all values of \(a\) and \(b\).
 
-- ### $(a / b)$ % $mod = (a * (inverse\ of\ b\ if\ it\ exists))$ % $mod$
+- $(a / b)$ % $mod = (a * (inverse\ of\ b\ if\ it\ exists))$ % $mod$
 
 Inverse of b exists only when b and mod are co-primes, that is-
 
