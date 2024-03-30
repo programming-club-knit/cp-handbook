@@ -63,10 +63,11 @@ Element found at index: 2
 
 ## Practice Problems
 
-1. **[Find Mex](https://www.hackerearth.com/practice/algorithms/searching/linear-search/practice-problems/algorithm/find-mex-62916c25/_)**
-2. **[Equal Strings](https://www.hackerearth.com/practice/algorithms/searching/linear-search/practice-problems/algorithm/equal-strings-79789662-4dbd707c/)**
-3. **[Count Mex](https://www.hackerearth.com/practice/algorithms/searching/linear-search/practice-problems/algorithm/count-mex-8dd2c00c/)**
-4. **[Effective Approach](https://codeforces.com/problemset/problem/227/B)**
+1. **Hacker Earth - [Find Mex](https://www.hackerearth.com/practice/algorithms/searching/linear-search/practice-problems/algorithm/find-mex-62916c25/_)**
+2. **Hacker Earth - [Equal Strings](https://www.hackerearth.com/practice/algorithms/searching/linear-search/practice-problems/algorithm/equal-strings-79789662-4dbd707c/)**
+3. **Hacker Earth - [Count Mex](https://www.hackerearth.com/practice/algorithms/searching/linear-search/practice-problems/algorithm/count-mex-8dd2c00c/)**
+4. **Codeforces - [Effective Approach](https://codeforces.com/problemset/problem/227/B)**
+5. **LeetCode - [Kth Missing Number](https://leetcode.com/problems/kth-missing-positive-number/description/)**
 
 ## Also See
 - **[How to Effectively Practice CP](https://codeforces.com/blog/entry/116371)**
