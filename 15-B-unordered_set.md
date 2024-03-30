@@ -41,29 +41,30 @@ We can use `insert()` function to initialize an unordered_set or we can use foll
 	 	
 ## Important Functions
 1. ### Lookup functions :
------------
 - **[`find ()`](https://www.geeksforgeeks.org/unordered_set-find-function-in-c-stl/) :** Gets iterator to the element. i.e. finds the element and returns its iterator. If element does not exist returns end() last iterator.
 - **[`count ()`](https://www.geeksforgeeks.org/unordered_set-count-function-in-c-stl/) :** returns the count of occurrences of an element in the set, 0 or 1.
 - **[`equal_range ()`](https://www.geeksforgeeks.org/unordered_set-equal_range-in-c-stl/) :**  Returns range that includes all elements equal to a given value.
+------------------
 
 2. ### Iterators :
-------------------
 - **[`begin ()`](https://www.geeksforgeeks.org/unordered_set-begin-function-in-c-stl/) :** 	Return iterator to beginning.
 - **[`end ()`](https://www.geeksforgeeks.org/unordered_set-end-in-c-stl/) :** 	Return iterator to end 
 - **[`cbegin ()`](https://www.geeksforgeeks.org/unordered_set-cbegin-function-in-c-stl/) :**  Return const_iterator to beginning 
 - **[`cend ()`](https://www.geeksforgeeks.org/unordered_set-cend-function-in-c-stl/) :** 	Return const_iterator to end 
+------------------
+
 3. ### Capacity
------------
 - **[`empty ()`](https://www.geeksforgeeks.org/unordered_set-empty-function-in-c-stl/) :** 	Test whether container is empty.
 - **[`size ()`](https://www.geeksforgeeks.org/unordered_set-size-function-in-c-stl/) :**  Return container size.	
 - **[`max_size ()`](https://www.geeksforgeeks.org/unordered_set-max_size-in-c-stl/) :**  Return maximum size
-4. ### Modifiers
 ------------------
+
+4. ### Modifiers
 - **[`insert()`](https://www.geeksforgeeks.org/unordered_set-insert-function-in-c-stl/) :** 	Insert elements.
 - **[`erase()`](https://www.geeksforgeeks.org/unordered_set-erase-function-in-c-stl/) :** 	Erase elements.
 - **[`clear()`](https://www.geeksforgeeks.org/unoredered_set-clear-function-in-c-stl/) :** 	Clear content.
 - **[`swap()`](https://www.geeksforgeeks.org/unordered_set-swap-function-in-c-stl/) :** 	Swap content.	
-
+-----------------
 ## Traversal in unordered_set:
 Iterators are used to traverse in an unordered set. To make an iterator of an unordered set : 
 ```
