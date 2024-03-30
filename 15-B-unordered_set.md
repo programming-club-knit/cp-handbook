@@ -82,7 +82,7 @@ or
 		cout << itr << endl;
 ```	
 
-## Usage:
+## An Example:
 Here is an example to illustrate some of the functions :
 
 ```cpp
