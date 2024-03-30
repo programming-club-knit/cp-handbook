@@ -24,7 +24,7 @@ Generally, the question statement mentions if modulo needs to be used. The state
 
 Modulo cannot be simply used for arithmetic operations and follows certain rules. The rules are as follows:
 
-- #### $(a + b)$ % $mod = ((a$ % $mod) + (b$ % $mod))$ % $mod$
+- ### $(a + b)$ % $mod = ((a$ % $mod) + (b$ % $mod))$ % $mod$
 - $(a * b)$ % $mod = ((a$ % $mod) * (b$ % $mod))$ % $mod$
 - $(a - b)$ % $mod = ((a$ % $mod) - (b$ % $mod) + mod)$ % $mod$
 
