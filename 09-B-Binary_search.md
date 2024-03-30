@@ -147,7 +147,7 @@ Where $k$ is the key.
 
 CPP already has  STL function [`lower_bound()`](https://www.geeksforgeeks.org/lower_bound-in-cpp/) for finding lower bound in an already sorted data structure. But one should implement it on there own for better standing :
         
-[Problem : Find the Lowerbound in $O(log N)$ time](https://leetcode.com/problems/search-insert-position/solutions/15371/my-understanding-of-lower-boundupper-bound-binary-search-in-c-thanks-to-two-post/)
+[Problem : Find the Lowerbound in O(log N) time](https://leetcode.com/problems/search-insert-position/solutions/15371/my-understanding-of-lower-boundupper-bound-binary-search-in-c-thanks-to-two-post/)
 
 ## UpperBound 
 
