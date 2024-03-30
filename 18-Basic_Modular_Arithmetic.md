@@ -63,6 +63,8 @@ I would recommend you to read [this article](https://cp-algorithms.com/algebra/m
 - [Codechef - Array Modification](https://www.codechef.com/problems/MARM)
 - [Codechef - Word Counding](https://www.codechef.com/problems/WCOUNT)
 - [Codeforces - Koxia and number Theory](https://codeforces.com/problemset/problem/1770/C)
+- [Leetcode - Smallest Number divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/description/)
+- [Leetcode - Count Good Numbers](https://leetcode.com/problems/count-good-numbers/)
 
 ### Also See
 
