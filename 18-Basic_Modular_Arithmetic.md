@@ -25,8 +25,8 @@ Generally, the question statement mentions if modulo needs to be used. The state
 Modulo cannot be simply used for arithmetic operations and follows certain rules. The rules are as follows:
 
 - ### $(a + b)$ % $mod = ((a$ % $mod) + (b$ % $mod))$ % $mod$
-- $(a * b)$ % $mod = ((a$ % $mod) * (b$ % $mod))$ % $mod$
-- $(a - b)$ % $mod = ((a$ % $mod) - (b$ % $mod) + mod)$ % $mod$
+- ### $(a * b)$ % $mod = ((a$ % $mod) * (b$ % $mod))$ % $mod$
+- ### $(a - b)$ % $mod = ((a$ % $mod) - (b$ % $mod) + mod)$ % $mod$
 
 
 The difference from the general pattern in the case of subtraction can be understood by the following example:
@@ -47,7 +47,7 @@ $LHS=RHS.$
 
 It can be proven that this formula is valid for all values of \(a\) and \(b\).
 
-- $(a / b)$ % $mod = (a * (inverse\ of\ b\ if\ it\ exists))$ % $mod$
+- ### $(a / b)$ % $mod = (a * (inverse\ of\ b\ if\ it\ exists))$ % $mod$
 
 Inverse of b exists only when b and mod are co-primes, that is-
 
@@ -58,10 +58,10 @@ I would recommend you to read [this article](https://cp-algorithms.com/algebra/m
 
 ## Practice Problems 
     
-- [Xor Equality](https://www.codechef.com/problems/XOREQUAL)
-- [Array Modification](https://www.codechef.com/problems/MARM)
-- [Word Counding](https://www.codechef.com/problems/WCOUNT)
-- [Koxia and number Theory](https://codeforces.com/problemset/problem/1770/C)
+- [Codechef - Xor Equality](https://www.codechef.com/problems/XOREQUAL)
+- [Codechef - Array Modification](https://www.codechef.com/problems/MARM)
+- [Codechef - Word Counding](https://www.codechef.com/problems/WCOUNT)
+- [Codeforces - Koxia and number Theory](https://codeforces.com/problemset/problem/1770/C)
 
 ### Also See
 
