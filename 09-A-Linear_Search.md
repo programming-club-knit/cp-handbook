@@ -7,7 +7,7 @@ Linear Search is a searching algorithm that starts at one end and goes through e
 Given an Array $A$ of $n$ elements as $a_0, a_1, a_2, ..., a_{n-1}$ and there is a key value K which has to be searched in array A. i is the current index. We use the following steps:
 
 1. Set $i$ to $0$.
-2. If $a_i = K$, the search terminates successfully; return $$.
+2. If $a_i = K$, the search terminates successfully; return $i$.
 3. Increase $i$ by $1$.
 4. If $i$ < $n$, go to step $2$. Otherwise, The Search terminates unsuccessfully.
 
