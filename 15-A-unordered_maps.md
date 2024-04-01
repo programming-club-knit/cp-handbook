@@ -15,8 +15,10 @@
 
 6. **Time-Complexity**: The performance of this data structure depends on Hash Function it implements internally, On an average the cost of search, insert, and delete is O(1).
 
-**Note**: In `unordered_map`, the average cost of basic operations is O(1) but it can slip to worst case of O(n) for some cases, in such cases it is advised to use `map` to avoid getting TLE. In most cases `unordered_map` are 4 times faster than `map`.
-In Most of the questions, implement `map`.
+**Note**: In `unordered_map`, the average cost of basic operations is O(1) but it can slip to worst case of O(n) for some cases, in such cases it is advised to use `map` to avoid getting TLE. In most cases `unordered_map` are 4 times faster than `map`.<br>
+Still In Most of the questions, implement `map`.
+
+--------------------------------------------
 
 # Implementation
 
