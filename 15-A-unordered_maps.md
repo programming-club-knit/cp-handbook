@@ -3,7 +3,8 @@
 `unordered_map` is an associated container data structure that stores elements formed by the combination of a key value and a mapped value. It’s similar to a dictionary but with no apparent order of key and value pairs.
 
 ## Properties
-1. **Key-Value Map**: `unordered_map` stores a key-value pair. Where the keys are used to uniquely find the value. The unique “keys” are mapped to the “values”, the whole “key-value” pair is treated as one element.<br>
+1. **Key-Value Map**: `unordered_map` stores a key-value pair. Where the keys are used to uniquely find the value. The unique “keys” are mapped to the “values”, the whole “key-value” pair is treated as one element.
+<br>
 
 2. **Associative**: An individual element has no indexing instead they are associated with a Key which is used for their look up.
 
@@ -15,10 +16,9 @@
 
 6. **Time-Complexity**: The performance of this data structure depends on Hash Function it implements internally, On an average the cost of search, insert, and delete is O(1).
 
-**Note**: In `unordered_map`, the average cost of basic operations is O(1) but it can slip to worst case of O(n) for some cases, in such cases it is advised to use `map` to avoid getting TLE. In most cases `unordered_map` are 4 times faster than `map`.<br>
+**Note**: In `unordered_map`, the average cost of basic operations is O(1) but it can slip to worst case of O(n) for some cases, in such cases it is advised to use `map` to avoid getting TLE. In most cases `unordered_map` are 4 times faster than `map`.
+<br>
 Still In Most of the questions, implement `map`.
-
---------------------------------------------
 
 # Implementation
 
@@ -30,12 +30,14 @@ unordered_map<key_type, value_type> map_name;
 Allowed key-value type : all integer types (int, long long, unsigned long long), char, floating point types, strings, pointers, vectors, bitset etc.
 
 Example : unordered_map<int,int> ump;
+<br>
+<br>
 
 ## Access
 
 The map elements can be created and accessed using the `[]` operator.
 
-## Usage
+### Usage
 ```cpp
 // C++ program to demonstrate functionality of unordered_map 
 #include <iostream> 
@@ -68,6 +70,9 @@ Akshit Raj Singh 9
 Aditya Kumar Singh 5
 Abhishek Kumar Yadav 4
 ```
+--------------------
+<br>
+
 
 ## Iterators
 
