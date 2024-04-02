@@ -6,7 +6,7 @@
 
 ### Syntax to declare vector in c++
 
- `std::vector<dataType> vectorName;`
+ `std::vector<data_type> vector_name;`
  where the data type is the type of data of each element of the vector. You can remove the std:: if you have already used the std namespace.
 
 
@@ -45,7 +45,7 @@ Syntax:
 vt[] ={1,2,3,4,5};
 int x = vt.pop_back();
 ```
-x will contain 5.
+x now contains 5.
 
 3. size() :     Returns the number of elements in the vector. 
 
@@ -54,7 +54,7 @@ Syntax:
 vt[] = {1,2,3,4,5}
 int len = vt.size();
 ```
-len will contain size of vector = 5.
+len now contains the size of vector = 5.
 
 4. resize():    Changes the size of the vector.
 
@@ -86,6 +86,6 @@ In a 2D vector , every element is a vector.
 
 ## Advantage of Vector over Array
 
-1.  Vector is template class and is C++ only construct whereas arrays are built-in language construct and present in both C and C++.
+1.  Vector is a template class and is "C++ only construct" whereas arrays are "built-in language construct" and present in both C and C++.
 
-2.  Vector are implemented as dynamic arrays with list interface whereas arrays can be implemented as statically or dynamically with primitive data type interface.
+2.  Vector are implemented as dynamic arrays with list-like interface whereas arrays can be implemented as statically or dynamically with primitive data type interface.
