@@ -6,11 +6,6 @@
 Binary Exponentiation or Exponentiation by squaring is the process of calculating a number raised to the power another number (AB) in Logarithmic time of the exponent or power, which speeds up the execution time of the program.
 
 
-Binary Exponentiation or Exponentiation by squaring is the
-process of calculating a number raised to the power another number (AB)
-in Logarithmic time of the exponent or power, which speeds up the
-execution time of the program.
-
 NORMAL EXPONENTIATION:
 
 3<sup>6</sup>=3X3X3X3X3X3
