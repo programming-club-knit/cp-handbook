@@ -1,15 +1,12 @@
-**<u>EXPONENTIATION AND</u>**
+# EXPONENTIATION AND BINARY EXPONENTIATION
+**Binary exponentiation**, also known as exponentiation by squaring, is a technique used to efficiently compute large powers of a number modulo another number. It is particularly useful in computer science and cryptography where large numbers are involved.
 
-**<u>BINARY EXPONENTIATION</u>**
-**Binary exponentiation**, also known as exponentiation by squaring, is a
-Binary exponentiation, also known as exponentiation by squaring, is a
 ## What is Binary Exponentiation?
-another number. It is particularly useful in computer science and
-cryptography where large numbers are involved.
 
-**<u>What is Binary Exponentiation?</u>**
+Binary Exponentiation or Exponentiation by squaring is the process of calculating a number raised to the power another number (AB) in Logarithmic time of the exponent or power, which speeds up the execution time of the program.
 
-***Binary Exponentiation **or **Exponentiation by squaring **is the
+
+Binary Exponentiation or Exponentiation by squaring is the
 process of calculating a number raised to the power another number (AB)
 in Logarithmic time of the exponent or power, which speeds up the
 execution time of the program.
@@ -55,7 +52,7 @@ alt="A math problem with numbers and symbols" />
 
 
 
-C++ code for binary exponentiation both iterative and recursive
+# C++ code for binary exponentiation both iterative and recursive
 
 ```#include <iostream>
 using namespace std;
