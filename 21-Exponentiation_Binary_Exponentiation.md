@@ -1,5 +1,4 @@
-**<u>EXPONENTIATION AND</u>**
-
+# EXPONENTIATION AND BINARY EXPONENTIATION
 **<u>BINARY EXPONENTIATION</u>**
 
 Binary exponentiation, also known as exponentiation by squaring, is a
@@ -7,12 +6,13 @@ technique used to efficiently compute large powers of a number modulo
 another number. It is particularly useful in computer science and
 cryptography where large numbers are involved.
 
-**<u>What is Binary Exponentiation?</u>**
+## What is Binary Exponentiation?
 
-***Binary Exponentiation **or **Exponentiation by squaring **is the
+Binary exponentiation, also known as exponentiation by squaring, is a
+technique used to efficiently compute large powers of a number modulo
 process of calculating a number raised to the power another number (AB)
-in **Logarithmic **time of the exponent or power, which speeds up the
-execution time of the program.*
+in Logarithmic time of the exponent or power, which speeds up the
+execution time of the program.
 
 NORMAL EXPONENTIATION:
 
@@ -57,14 +57,53 @@ alt="A math problem with numbers and symbols" />
 
 C++ code for binary exponentiation both iterative and recursive
 
-<img src="./assets/images/image2.png" style="width:6.26806in;height:6.88194in"
-alt="A screenshot of a computer program" />
+```#include <iostream>
+using namespace std;
+
+// Iterative approach
+long long binary_exponentiation_iterative(long long base, long long exponent) {
+    long long result = 1;
+
+    while (exponent > 0) {
+        if (exponent & 1) // Check if current bit of exponent is set
+            result *= base;
+        base *= base;
+        exponent >>= 1; // Shift exponent to the right by 1 bit
+    }
+
+    return result;
+}
+
+// Recursive approach
+long long binary_exponentiation_recursive(long long base, long long exponent) {
+    if (exponent == 0)
+        return 1;
+
+    long long temp = binary_exponentiation_recursive(base, exponent / 2);
+    long long result = temp * temp;
+
+    if (exponent % 2 == 1)
+        result *= base;
+
+    return result;
+}
+
+int main() {
+    long long base = 5;
+    long long exponent = 13;
+
+    cout << "Iterative result: " << binary_exponentiation_iterative(base, exponent) << endl;
+    cout << "Recursive result: " << binary_exponentiation_recursive(base, exponent) << endl;
+
+    return 0;
+}
+```
 
 
 
 
 
-**Modulo arithmetic in binary exponentiation**
+# Modulo arithmetic in binary exponentiation
 
 Lets say we have a number of order 10<sup>18</sup> and modulo also
 having value 10<sup>18</sup>+7 now for our binary exponentiation we have
@@ -107,11 +146,55 @@ Since we have done binary multiplication + binary exponentiation the
 time complexity of our code turns out to be O(log power X log a) hence
 can be written simply as O((log(t))<sup>2</sup>).
 
-**C++ code for applying binary multiplication in binary exponentiation
-and to calculate mod**
+# C++ code for applying binary multiplication in binary exponentiation and to calculate mod
 
-<img src="./assets/images/image3.png" style="width:5.76042in;height:7.04861in"
-alt="A computer screen shot of a program code Description automatically generated" />
+```
+// Source Code Here  
+
+#include <iostream>
+using namespace std;
+
+// Function to perform binary multiplication
+long long binaryMultiply(long long a, long long b, long long mod) {
+    long long result = 0;
+    a %= mod;
+    while (b) {
+        if (b & 1)
+            result = (result + a) % mod;
+        a = (2 * a) % mod;
+        b >>= 1;
+    }
+    return result;
+}
+
+// Function to perform binary exponentiation with modulo
+long long binaryExponentiation(long long base, long long power, long long mod) {
+    long long result = 1;
+    base %= mod;
+    while (power > 0) {
+        if (power & 1)
+            result = binaryMultiply(result, base, mod);
+        base = binaryMultiply(base, base, mod);
+        power >>= 1;
+    }
+    return result;
+}
+
+int main() {
+    long long base, power, mod;
+    cout << "Enter base: ";
+    cin >> base;
+    cout << "Enter power: ";
+    cin >> power;
+    cout << "Enter modulo value: ";
+    cin >> mod;
+
+    long long result = binaryExponentiation(base, power, mod);
+    cout << "Result of (" << base << "^" << power << ") % " << mod << " = " << result << endl;
+
+    return 0;
+}
+```
 
 **<u>Use Cases of Binary Exponentiation in Competitive
 Programming:</u>**
