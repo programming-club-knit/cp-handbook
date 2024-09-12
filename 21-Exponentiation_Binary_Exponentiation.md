@@ -1,7 +1,7 @@
 # EXPONENTIATION AND BINARY EXPONENTIATION
 
 **<u>BINARY EXPONENTIATION</u>**
-
+**Binary exponentiation**, also known as exponentiation by squaring, is a
 Binary exponentiation, also known as exponentiation by squaring, is a
 technique used to efficiently compute large powers of a number modulo
 another number. It is particularly useful in computer science and
