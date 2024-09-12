@@ -54,7 +54,8 @@ alt="A math problem with numbers and symbols" />
 
 # C++ code for binary exponentiation both iterative and recursive
 
-```#include <iostream>
+```cpp
+#include <iostream>
 using namespace std;
 
 // Iterative approach
@@ -145,7 +146,7 @@ can be written simply as O((log(t))<sup>2</sup>).
 
 # C++ code for applying binary multiplication in binary exponentiation and to calculate mod
 
-```
+```cpp
 // Source Code Here  
 
 #include <iostream>
