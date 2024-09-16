@@ -1,10 +1,27 @@
-*.txt
-
-# Logs
-logs
+*~
+~*
+*.diff
+*.patch
+*.bak
+.DS_Store
+*.swp
+*.swo
 *.log
+*.log.*
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+/.vscode/
+
+node_modules/
+.sass-cache/
+
+/.bundle/
+/vendor/bundle
+*.gem
+
+yarn.lock
+package-lock.json
+Gemfile.lock
+
+_site/
+.jekyll-metadata
+.jekyll-cache/
