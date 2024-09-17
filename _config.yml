@@ -18,7 +18,7 @@
 ##############################
 text_skin:  # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
-url     : # the base hostname & protocol for your site e.g. https://www.someone.com
+url     : https://programming-club-knit.github.io/cp-handbook/ # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
 title   : Competitive Programming Handbook
 description: > # this means to ignore newlines until "Language & timezone"
@@ -55,8 +55,8 @@ author:
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: user_name/repo_name
-repository_tree: master
+repository: programming-club-knit/cp-handbook
+repository_tree: main
 
 
 ## => Paths

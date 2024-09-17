@@ -75,4 +75,4 @@ header:
       fr-LU   : *FR
       tr      : &TR       GitHub
       # @end locale config
-    url: https://github.com/programming-club-knit
+    url: https://github.com/programming-club-knit/cp-handbook
