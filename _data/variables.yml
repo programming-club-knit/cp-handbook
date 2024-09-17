@@ -7,8 +7,8 @@ default:
     home: /
     archive:  /archive.html
     rss:  /feed.xml
-  mathjax: false
-  mathjax_autoNumber: false
+  mathjax: true
+  mathjax_autoNumber: true
   mermaid: false
   chart: false
   toc:
