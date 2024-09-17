@@ -47,7 +47,7 @@ The basic rules of combinatorics one must remember are:
 > The principle of inclusion-exclusion says that in order to count only
 > unique ways of doing a task, we must add the number of ways to do it
 > in one way and the number of ways to do it in another and then
-> subtract <img src="/assets/images/image1N.png"
+> subtract <img src="./assets/images/image1N.png"
 > style="width:2.53472in;height:1.65486in" />the number of ways to do
 > the task that are common to both sets of ways. The principle of
 > inclusion-exclusion is also known as the **subtraction principle**.
@@ -133,10 +133,10 @@ i.e factorial of n - (n!) = n \* (n-1) \* ......\* 3 \* 2\* 1.
 
 1.  Factorial Program using Loop:
 
-<img src="/assets/images/image2.tmp" style="width:5.30347in;height:2.97986in"
+<img src="./assets/images/image2.tmp" style="width:5.30347in;height:2.97986in"
 alt="Factorial Program in C++ - javatpoint - Brave" />
 
-2.  <img src="/assets/images/image3.tmp" style="width:5.63125in;height:4.44722in"
+2.  <img src="./assets/images/image3.tmp" style="width:5.63125in;height:4.44722in"
     alt="Factorial Program in C++ - javatpoint - Brave" />Factorial
     Program using Recursion:
 
@@ -281,17 +281,17 @@ Programs for permutations coefficient:
 
 1.  Using the factorial:
 
-> <img src="/assets/images/image4.tmp" style="width:3.64097in;height:3.91944in"
+> <img src="./assets/images/image4.tmp" style="width:3.64097in;height:3.91944in"
 > alt="Online C++ Compiler - Brave" />
 
 2.  Just using the formula:
 
-> <img src="/assets/images/image5.tmp" style="width:4.61458in;height:3.82569in"
+> <img src="./assets/images/image5.tmp" style="width:4.61458in;height:3.82569in"
 > alt="Online C++ Compiler - Brave" />
 
 3.  Using dynamic programming:
 
-<img src="/assets/images/image6.tmp" style="width:6.15208in;height:5.98264in"
+<img src="./assets/images/image6.tmp" style="width:6.15208in;height:5.98264in"
 alt="Online C++ Compiler - Brave" />
 
 **<u>Combination</u>**
@@ -352,7 +352,7 @@ people we can count but let’s suppose there are thousands of people in a
 hall then we can’t count each handshake here the need for the
 combination arises.
 
-<img src="/assets/images/image7.tmp" style="width:4.64301in;height:4.09236in"
+<img src="./assets/images/image7.tmp" style="width:4.64301in;height:4.09236in"
 alt="Combinations - Definition, Formula, Solved Examples, FAQs - Brave" />
 
 To see the people present, and consider one person at a time. The first
@@ -386,12 +386,12 @@ Following this, it will give us a total number of
 
 1.  Using factorial function:
 
-> <img src="/assets/images/image8.tmp" style="width:4.62069in;height:4.13422in"
+> <img src="./assets/images/image8.tmp" style="width:4.62069in;height:4.13422in"
 > alt="Online C++ Compiler - Brave" />
 
 2.  Using formula directly:
 
-> <img src="/assets/images/image9.tmp" style="width:4.24713in;height:4.06873in"
+> <img src="./assets/images/image9.tmp" style="width:4.24713in;height:4.06873in"
 > alt="Online C++ Compiler - Brave" />
 
 **<u>Binomial coefficient</u>**
@@ -452,19 +452,19 @@ C(n, k) = C(n-1, k-1) + C(n-1, k)
 
 C(n, 0) = C(n, n) = 1
 
-<img src="/assets/images/image10.tmp" style="width:4.24097in;height:3.90139in"
+<img src="./assets/images/image10.tmp" style="width:4.24097in;height:3.90139in"
 alt="Online C++ Compiler - Brave" />
 
 2.  Using factorial by direct formula:
 
 <sup>n</sup>Cr = n! / ( (n-r)! \* r!)
 
-<img src="/assets/images/image11.tmp" style="width:4.47126in;height:4.17616in"
+<img src="./assets/images/image11.tmp" style="width:4.47126in;height:4.17616in"
 alt="Online C++ Compiler - Brave" />
 
 **<u>Pascal’s Triangle</u>**
 
-<img src="/assets/images/image12.png" style="width:4.35069in;height:3.925in"
+<img src="./assets/images/image12.png" style="width:4.35069in;height:3.925in"
 alt="enter image description here" />
 
 The image above is pascal’s triangle.
@@ -477,7 +477,7 @@ follow a rule of adding the two numbers above to get the number below.
 Two of the sides are “all 1's” and because the triangle is infinite,
 there is no “bottom side.”
 
-<img src="/assets/images/image13.jpeg" style="width:5.90805in;height:3.93131in"
+<img src="./assets/images/image13.jpeg" style="width:5.90805in;height:3.93131in"
 alt="The numbers of Pascal’s triangle match the number of possible combinations (nCr) when faced with having to choose r-number of objects among n-number of available options." />
 
 **Approach for program for pascal’s triangle:**
@@ -492,7 +492,7 @@ C(line, i) = line! / ( (line-i)! \* i! )
 
 **Program for pascal’s triangle:**
 
-<img src="/assets/images/image14.tmp" style="width:5.22361in;height:5.35069in"
+<img src="./assets/images/image14.tmp" style="width:5.22361in;height:5.35069in"
 alt="Online C++ Compiler - Brave" />
 
 **<u>Problems to practice for combinatorics:</u>**
