@@ -2,7 +2,7 @@
 title: Set
 ---
 
-# Itroduction to Sets :
+# Introduction to Sets :
 
 Sets are a type of associative container in which each element has to be unique because the value of the element identifies it. The values are stored in a specific sorted order i.e. either ascending or descending.
 
