@@ -29,6 +29,8 @@ layout: page
   {%- endif -%}
 {%- endfor -%}
 
+{% comment: reverse articles in a page %} {%- assign _articles = _articles | reverse -%}  <!-- Add this line --> {% endcomment %}
+
 {%- assign _type = page.articles.type | default: layout.articles.type -%}
 
 {%- if _articles -%}
