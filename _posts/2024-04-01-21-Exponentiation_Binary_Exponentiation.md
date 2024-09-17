@@ -44,7 +44,7 @@ O(log(n)) where n is the power of base 3.
 
 **GENERAL FORMULA OF BINARY EXPONENTIATION**
 
-<img src="./assets/images/image1.png" style="width:6.26806in;height:1.63547in"
+<img src="/assets/images/image1.png" style="width:6.26806in;height:1.63547in"
 alt="A math problem with numbers and symbols" />
 
 
