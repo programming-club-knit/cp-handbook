@@ -30,8 +30,8 @@
   {%- endif -%}
 
 {%- else -%}
-  {%- assign _previous = page.previous -%}
-  {%- assign _next = page.next -%}
+  {%- assign _previous = page.next -%}
+  {%- assign _next = page.previous -%}
 {%- endif -%}
 
 {%- if _next or _previous -%}
