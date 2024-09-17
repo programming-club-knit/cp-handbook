@@ -2,7 +2,7 @@
 title: COMBINATORICS
 ---
 
-# COMBINATORICS
+# Introduction to Combinatorics:
 
 **What is combinatorics:** Combinatorics is a branch of mathematics
 primarily concerned with counting and certain properties of finite
