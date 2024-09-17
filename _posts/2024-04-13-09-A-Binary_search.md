@@ -2,7 +2,8 @@
 title: Binary Search
 ---
 
-# Binary Search
+# Introduction to Binary Search :
+
 Binary Search is defined as a searching algorithm used in a sorted array by repeatedly dividing the search interval in half. The Idea of Binary search is to use the information that the array is sorted and reduce the time complexity to $O(log N)$.
 
 It a powerful tool in various problems as it can be used in a versatile way to find Lower bound, upper bound, search on arbitrary predicate, Binary Search on answer etc.

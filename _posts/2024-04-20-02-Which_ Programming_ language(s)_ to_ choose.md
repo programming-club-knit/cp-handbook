@@ -2,7 +2,7 @@
 title: Choosing a Programming Language for Competitive Programming
 ---
 
-# Choosing a Programming Language for Competitive Programming
+# Introduction :
 
 Competitive programming requires efficient problem-solving skills and quick algorithmic implementations. While the choice of programming language largely depends on personal preference and familiarity, certain languages offer advantages over others in competitive programming due to their syntax simplicity, standard libraries, and execution speed.
 

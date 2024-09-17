@@ -2,13 +2,11 @@
 title: Time Complexity
 ---
 
-# Time Complexity
-
-## INTRODUCTION
+## Introduction to Time Complexity :
 
 An important part of competitive programming is learning the concepts of time constraints and complexities. Time Complexity refers to the estimated time an algorithm is going to take for complete execution for the given input. It can be said as a measure of efficiency of a program against the size of input or parameters. Time Complexity is an important topic because a large part of Competitive Programming is dependent on increasing efficiency of your code and that can only be accomplished by writing optimized code. Knowledge of this concept will help in finding out the most efficient method withoust applying the hit and trial method and hoping to stumble upon the solution.
 
-## NOTATIONS OF TIME COMPLEXITY
+## Notations of Time Complexity :
 
 There are three main ways of representation of Complexity of a program:
 
