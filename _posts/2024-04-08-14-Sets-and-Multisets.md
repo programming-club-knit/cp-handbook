@@ -1,3 +1,7 @@
+---
+title: Set
+---
+
 # Set Data Structure
 
 Sets are a type of associative container in which each element has to be unique because the value of the element identifies it. The values are stored in a specific sorted order i.e. either ascending or descending.
@@ -21,7 +25,7 @@ The C++ standard library contains two set implementations: The structure `set` i
 **Include the header file:** To use the set container, include the `set` header file in your C++ program. <br>
 **Declare a set:** A set is declared using the `std::set` template class, specifying the type of elements it will contain. <br>
 **Datatype :**
-Set can take any data type depending on the values, e.g. `int`, `char`, `float`, etc.
+Set can take any data type depending on the values, e.g. `int`, `char`, `float`, etc.
 
 ### Syntax:
 

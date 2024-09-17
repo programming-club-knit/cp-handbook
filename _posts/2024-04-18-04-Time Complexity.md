@@ -1,3 +1,7 @@
+---
+title: Time Complexity
+---
+
 # Time Complexity
 
 ## INTRODUCTION

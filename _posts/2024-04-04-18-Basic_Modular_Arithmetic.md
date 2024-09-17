@@ -1,3 +1,6 @@
+---
+title: Modular Arithmetic
+---
 
 # Modular Arithmetic
 

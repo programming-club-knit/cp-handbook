@@ -1,3 +1,7 @@
+---
+title: Maps
+---
+
 # Maps in C++
 
 In C++, a "map" is a data structure that stores a collection of key-value pairs. It's like having a dictionary where you can look up a word (the key) and find its definition (the value).

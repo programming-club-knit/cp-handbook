@@ -1,3 +1,7 @@
+---
+title: COMBINATORICS
+---
+
 # COMBINATORICS
 
 **What is combinatorics:** Combinatorics is a branch of mathematics

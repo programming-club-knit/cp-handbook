@@ -1,3 +1,7 @@
+---
+title: Binary Search
+---
+
 # Binary Search
 Binary Search is defined as a searching algorithm used in a sorted array by repeatedly dividing the search interval in half. The Idea of Binary search is to use the information that the array is sorted and reduce the time complexity to $O(log N)$.
 
@@ -151,7 +155,7 @@ CPP already has  STL function [`lower_bound()`](https://www.geeksforgeeks.org/lo
 
 ## UpperBound 
 
-In an sorted datastructure upperbound of $k$ is the position of the first element that is greater than $k$ . Where $k$ is the key.
+In an sorted datastructure upperbound of $k$ is the position of the first element that is greater than $k$ . Where $k$ is the key.
 
 similar to [`lower_bound()`](https://www.geeksforgeeks.org/lower_bound-in-cpp/) there is [`upper_bound()`](https://www.geeksforgeeks.org/upper_bound-in-cpp/) function, but one should try to implement it first on their own before using it in CP.
 

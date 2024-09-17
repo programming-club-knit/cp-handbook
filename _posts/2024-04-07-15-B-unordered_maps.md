@@ -1,3 +1,7 @@
+---
+title: Unordered Maps
+---
+
 # Unordered Maps in C++
 
 `unordered_map` is an associated container data structure that stores elements formed by the combination of a key value and a mapped value. It’s similar to a dictionary but with no apparent order of key and value pairs.

@@ -1,3 +1,6 @@
+---
+title: Prefix and Suffix Sum
+---
 
 # Prefix and Suffix Sum
 We are going to start with the Prefix Sum, also called cumulative sum or inclusive scan.
