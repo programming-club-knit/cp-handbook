@@ -2,7 +2,7 @@
 title: Linear Search
 ---
 
-# Introduction to Linear Search :
+# Introduction to Linear Search:
 
 Linear Search is a searching algorithm that starts at one end and goes through each element of a list until the desired element is found. Otherwise, the search continues until the end of the dataset. It is also known as sequential search.
 

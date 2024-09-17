@@ -2,7 +2,7 @@
 title: Introduction to Competitive Programming
 ---
 
-# Introduction :
+# Introduction:
 
 ## What is Competitive Programming?
 

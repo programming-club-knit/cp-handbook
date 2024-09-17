@@ -2,7 +2,7 @@
 title: Prefix and Suffix Sum
 ---
 
-# Introduction to Prefix and Suffix Sum :
+# Introduction to Prefix and Suffix Sum:
 
 We are going to start with the Prefix Sum, also called cumulative sum or inclusive scan.
 And when we have covered that we will move on to the Suffix Sum, instead of having the sum direction from left to right, it will be from right to left.

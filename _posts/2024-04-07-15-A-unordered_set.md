@@ -2,7 +2,7 @@
 title: Unordered Sets
 ---
 
-# Introduction to Unordered Sets :
+# Introduction to Unordered Sets:
 
 `std::unordered_set` is a data structure that stores elements in no particular order and differs from `std::set` in their underlying implementation as well.
 

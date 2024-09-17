@@ -2,7 +2,7 @@
 title: Modular Arithmetic
 ---
 
-# Introduction to Modular Arithmetic :
+# Introduction to Modular Arithmetic:
 
 Modular Arithmetic is an important topic in Competitive Programming. Some questions involve such big numbers that they can’t even fit in any of the data types. So, modular arithmetic is a method to avoid data overflow.
 

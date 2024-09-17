@@ -2,7 +2,7 @@
 title: Binary Search
 ---
 
-# Introduction to Binary Search :
+# Introduction to Binary Search:
 
 Binary Search is defined as a searching algorithm used in a sorted array by repeatedly dividing the search interval in half. The Idea of Binary search is to use the information that the array is sorted and reduce the time complexity to $O(log N)$.
 
@@ -128,8 +128,8 @@ int main()
         : cout << "Element is present at index " << result;
     return 0;
 }
-</details>```
-
+```
+</details>
 <br>
 
 
