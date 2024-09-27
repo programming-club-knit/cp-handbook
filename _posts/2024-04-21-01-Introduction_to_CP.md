@@ -1,5 +1,6 @@
 ---
 title: Introduction to Competitive Programming
+author: Abhishek Yadav
 ---
 
 # Introduction:

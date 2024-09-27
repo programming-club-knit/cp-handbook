@@ -1,5 +1,6 @@
 ---
 title: Exponentiation and Binary Exponentiation
+author: Om Srivastava
 ---
 
 # Introduction to Exponentiation and Binary Exponentiation:

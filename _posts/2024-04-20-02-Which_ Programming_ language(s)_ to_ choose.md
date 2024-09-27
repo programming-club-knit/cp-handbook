@@ -1,5 +1,6 @@
 ---
 title: Choosing a Programming Language for Competitive Programming
+author: Anshul Yadav
 ---
 
 # Introduction:

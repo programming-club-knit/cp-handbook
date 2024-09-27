@@ -1,5 +1,6 @@
 ---
 title: Time Complexity
+author: Akshat Raj Singh
 ---
 
 # Introduction to Time Complexity:

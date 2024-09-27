@@ -1,5 +1,6 @@
 ---
 title: Modular Arithmetic
+author: Abhishek-Yadav
 ---
 
 # Introduction to Modular Arithmetic:

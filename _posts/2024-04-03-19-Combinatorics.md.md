@@ -1,5 +1,6 @@
 ---
-title: COMBINATORICS
+title: Combinatorics
+author: Nikhilesh Singh Bhardwaj
 ---
 
 # Introduction to Combinatorics:

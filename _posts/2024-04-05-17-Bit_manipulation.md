@@ -1,5 +1,6 @@
 ---
 title: Bit Manipulation
+author: Shambhavi Keshari & Sagun Singh
 ---
 
 # Introduction to Bit Manipulation:

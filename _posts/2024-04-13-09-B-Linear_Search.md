@@ -1,5 +1,6 @@
 ---
 title: Linear Search
+author: Aditya Kumar Singh
 ---
 
 # Introduction to Linear Search:

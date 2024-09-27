@@ -1,5 +1,6 @@
 ---
 title: Set
+author: Harshit Gupta
 ---
 
 # Introduction to Sets:

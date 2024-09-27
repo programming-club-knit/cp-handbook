@@ -1,5 +1,6 @@
 ---
 title: Prefix and Suffix Sum
+author: Himanshu Kumar Dubey
 ---
 
 # Introduction to Prefix and Suffix Sum:

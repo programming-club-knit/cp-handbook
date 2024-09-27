@@ -1,5 +1,6 @@
 ---
 title: Unordered Sets
+author: Deepak Shukla
 ---
 
 # Introduction to Unordered Sets:

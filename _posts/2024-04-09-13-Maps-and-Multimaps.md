@@ -1,5 +1,6 @@
 ---
 title: Maps
+author: Deepak Singh
 ---
 
 # Introduction to Maps:

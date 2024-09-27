@@ -1,5 +1,6 @@
 ---
 title: Binary Search
+author: Aditya Kumar Singh
 ---
 
 # Introduction to Binary Search:
