@@ -86,7 +86,7 @@ This handbook is the result of the hard work and collaboration of many talented 
 | Bit manipulation | Shambhavi Keshari & Sagun Singh |
 | Basic modular arithmetic | Abhishek Yadav |
 | Combinatorics | Nikhilesh Singh Bhardwaj |
-| Prefix and suffix sum | Kumar Dubey |
+| Prefix and suffix sum | Himanshu Kumar Dubey |
 | Exponentiation and binary exponentiation | Om Srivastava |
 | Standardization and compilation | Dev Saxena |
 
